@@ -1,8 +1,8 @@
 .DS_Store
-/build
-/*.xcodeproj/*.perspectivev3
-/*.xcodeproj/*.pbxuser
-/*.xcodeproj/*.mode*
+/app/build
+*.perspectivev3
+*.pbxuser
+*.mode*
 /OpenCV-*/
 /opencv_*/lib/*.la
 /opencv_*/lib/pkgconfig
@@ -16,3 +16,4 @@ tmp
 /build_simulator
 /opencv_device
 /opencv_simulator
+

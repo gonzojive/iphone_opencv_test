@@ -15,15 +15,15 @@
 		540723E20E3DD25B00B598A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		540723E30E3DD25B00B598A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		540723E40E3DD25B00B598A2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5452E0730E3D119700FE4518 /* CoreGraphics.framework */; };
-		540ABC6B0E3E1C5300E30885 /* haarcascade_frontalface_default.xml in Resources */ = {isa = PBXBuildFile; fileRef = 540ABC6A0E3E1C5300E30885 /* haarcascade_frontalface_default.xml */; };
 		540ABCF60E3E280700E30885 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 540ABCF50E3E280700E30885 /* Icon.png */; };
 		549913C70E3E3D2100BD1311 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 549913C60E3E3D2100BD1311 /* Default.png */; };
-		54A4A00312211BFD006678AF /* libcv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54A4A00212211BFD006678AF /* libcv.a */; };
-		54A4A00512211C0D006678AF /* libcxcore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54A4A00412211C0D006678AF /* libcxcore.a */; };
 		54BBAF3D0F04148D00568ED9 /* Tink.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 54BBAF3C0F04148D00568ED9 /* Tink.aiff */; };
 		54BBAF4F0F0414C200568ED9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54BBAF4E0F0414C200568ED9 /* AudioToolbox.framework */; };
 		54ED862C123C4A8B00ED9656 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54ED862B123C4A8B00ED9656 /* Accelerate.framework */; };
 		54FC5BDE0E3EB3EB00F48645 /* laughing_man.png in Resources */ = {isa = PBXBuildFile; fileRef = 54FC5BDD0E3EB3EB00F48645 /* laughing_man.png */; };
+		9DF4AED0129C599F002567FF /* haarcascade_frontalface_default.xml in Resources */ = {isa = PBXBuildFile; fileRef = 9DF4AECF129C599F002567FF /* haarcascade_frontalface_default.xml */; };
+		9DF4AED3129C5A42002567FF /* libcv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DF4AED1129C5A42002567FF /* libcv.a */; };
+		9DF4AED4129C5A42002567FF /* libcxcore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DF4AED2129C5A42002567FF /* libcxcore.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,18 +37,18 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* OpenCVTest_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenCVTest_Prefix.pch; sourceTree = "<group>"; };
 		540723ED0E3DD25B00B598A2 /* OpenCVTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenCVTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		540ABC6A0E3E1C5300E30885 /* haarcascade_frontalface_default.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = haarcascade_frontalface_default.xml; path = opencv_device/share/opencv/haarcascades/haarcascade_frontalface_default.xml; sourceTree = "<group>"; };
 		540ABCF50E3E280700E30885 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		5452E0090E3D08AA00FE4518 /* lena.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lena.jpg; sourceTree = "<group>"; };
 		5452E0730E3D119700FE4518 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		549913C60E3E3D2100BD1311 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		54A4A00212211BFD006678AF /* libcv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcv.a; path = opencv_device/lib/libcv.a; sourceTree = "<group>"; };
-		54A4A00412211C0D006678AF /* libcxcore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcxcore.a; path = opencv_device/lib/libcxcore.a; sourceTree = "<group>"; };
 		54BBAF3C0F04148D00568ED9 /* Tink.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Tink.aiff; sourceTree = "<group>"; };
 		54BBAF4E0F0414C200568ED9 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		54ED862B123C4A8B00ED9656 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		54FC5BDD0E3EB3EB00F48645 /* laughing_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = laughing_man.png; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DF4AECF129C599F002567FF /* haarcascade_frontalface_default.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = haarcascade_frontalface_default.xml; path = "../OpenCV-2.1.0/data/haarcascades/haarcascade_frontalface_default.xml"; sourceTree = SOURCE_ROOT; };
+		9DF4AED1129C5A42002567FF /* libcv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcv.a; path = ../opencv_device/lib/libcv.a; sourceTree = SOURCE_ROOT; };
+		9DF4AED2129C5A42002567FF /* libcxcore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcxcore.a; path = ../opencv_device/lib/libcxcore.a; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +60,9 @@
 				540723E30E3DD25B00B598A2 /* UIKit.framework in Frameworks */,
 				540723E40E3DD25B00B598A2 /* CoreGraphics.framework in Frameworks */,
 				54BBAF4F0F0414C200568ED9 /* AudioToolbox.framework in Frameworks */,
-				54A4A00312211BFD006678AF /* libcv.a in Frameworks */,
-				54A4A00512211C0D006678AF /* libcxcore.a in Frameworks */,
 				54ED862C123C4A8B00ED9656 /* Accelerate.framework in Frameworks */,
+				9DF4AED3129C5A42002567FF /* libcv.a in Frameworks */,
+				9DF4AED4129C5A42002567FF /* libcxcore.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,10 +113,10 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				9DF4AECF129C599F002567FF /* haarcascade_frontalface_default.xml */,
 				54BBAF3C0F04148D00568ED9 /* Tink.aiff */,
 				54FC5BDD0E3EB3EB00F48645 /* laughing_man.png */,
 				540ABCF50E3E280700E30885 /* Icon.png */,
-				540ABC6A0E3E1C5300E30885 /* haarcascade_frontalface_default.xml */,
 				5452E0090E3D08AA00FE4518 /* lena.jpg */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* Info.plist */,
@@ -140,8 +140,8 @@
 		540723F00E3DD28C00B598A2 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				54A4A00212211BFD006678AF /* libcv.a */,
-				54A4A00412211C0D006678AF /* libcxcore.a */,
+				9DF4AED1129C5A42002567FF /* libcv.a */,
+				9DF4AED2129C5A42002567FF /* libcxcore.a */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -197,11 +197,11 @@
 			files = (
 				540723DB0E3DD25B00B598A2 /* MainWindow.xib in Resources */,
 				540723DC0E3DD25B00B598A2 /* lena.jpg in Resources */,
-				540ABC6B0E3E1C5300E30885 /* haarcascade_frontalface_default.xml in Resources */,
 				540ABCF60E3E280700E30885 /* Icon.png in Resources */,
 				549913C70E3E3D2100BD1311 /* Default.png in Resources */,
 				54FC5BDE0E3EB3EB00F48645 /* laughing_man.png in Resources */,
 				54BBAF3D0F04148D00568ED9 /* Tink.aiff in Resources */,
+				9DF4AED0129C599F002567FF /* haarcascade_frontalface_default.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,15 +230,16 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = OpenCVTest_Prefix.pch;
-				"HEADER_SEARCH_PATHS[sdk=iphoneos*][arch=*]" = "$(SRCROOT)/opencv_device/include";
-				"HEADER_SEARCH_PATHS[sdk=iphonesimulator*][arch=*]" = "$(SRCROOT)/opencv_simulator/include";
+				"HEADER_SEARCH_PATHS[sdk=iphoneos*][arch=*]" = "$(SRCROOT)/../opencv_device/include";
+				"HEADER_SEARCH_PATHS[sdk=iphonesimulator*][arch=*]" = "$(SRCROOT)/../opencv_simulator/include";
 				INFOPLIST_FILE = Info.plist;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/opencv_device/lib\"",
+					"\"$(SRCROOT)/../opencv_device/lib\"",
 				);
-				"LIBRARY_SEARCH_PATHS[sdk=iphoneos*][arch=*]" = "$(SRCROOT)/opencv_device/lib";
-				"LIBRARY_SEARCH_PATHS[sdk=iphonesimulator*][arch=*]" = "$(SRCROOT)/opencv_simulator/lib";
+				"LIBRARY_SEARCH_PATHS[sdk=iphoneos*][arch=*]" = "$(SRCROOT)/../opencv_device/lib";
+				"LIBRARY_SEARCH_PATHS[sdk=iphonesimulator*][arch=*]" = "$(SRCROOT)/../opencv_simulator/lib";
 				OTHER_LDFLAGS = (
 					"-lstdc++",
 					"-lz",
@@ -254,15 +255,16 @@
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = OpenCVTest_Prefix.pch;
-				"HEADER_SEARCH_PATHS[sdk=iphoneos*][arch=*]" = "$(SRCROOT)/opencv_device/include";
-				"HEADER_SEARCH_PATHS[sdk=iphonesimulator*][arch=*]" = "$(SRCROOT)/opencv_simulator/include";
+				"HEADER_SEARCH_PATHS[sdk=iphoneos*][arch=*]" = "$(SRCROOT)/../opencv_device/include";
+				"HEADER_SEARCH_PATHS[sdk=iphonesimulator*][arch=*]" = "$(SRCROOT)/../opencv_simulator/include";
 				INFOPLIST_FILE = Info.plist;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/opencv_device/lib\"",
+					"\"$(SRCROOT)/../opencv_device/lib\"",
 				);
-				"LIBRARY_SEARCH_PATHS[sdk=iphoneos*][arch=*]" = "$(SRCROOT)/opencv_device/lib";
-				"LIBRARY_SEARCH_PATHS[sdk=iphonesimulator*][arch=*]" = "$(SRCROOT)/opencv_simulator/lib";
+				"LIBRARY_SEARCH_PATHS[sdk=iphoneos*][arch=*]" = "$(SRCROOT)/../opencv_device/lib";
+				"LIBRARY_SEARCH_PATHS[sdk=iphonesimulator*][arch=*]" = "$(SRCROOT)/../opencv_simulator/lib";
 				OTHER_LDFLAGS = (
 					"-lstdc++",
 					"-lz",
