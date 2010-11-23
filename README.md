@@ -16,45 +16,27 @@ If you want to build it from source code, you can do by next steps.
 
         % git clone git://github.com/niw/iphone_opencv_test.git
 
-3.  Getting source code from sourceforge. I tested with [OpenCV-2.1.0.tar.bz2](http://sourceforge.net/projects/opencvlibrary/files/opencv-unix/2.1/OpenCV-2.1.0.tar.bz2/download).
+3.  Download the source code for OpenCV from Sourceforge. Save
+[OpenCV-2.1.0.tar.bz2](http://sourceforge.net/projects/opencvlibrary/files/opencv-unix/2.1/OpenCV-2.1.0.tar.bz2/download)
+into the project root.
 
 
-4.  Extract downloaded archive on the top of demo project directory
+4.  Use the provided Makefile:
 
-        % tar xjvf OpenCV-2.1.0.tar.bz2
+        % make
 
-5.  Apply patch for iPhone SDK
+This will extract the downloaded archive, apply a patch to the OpenCV
+code, generate appropriate cmakefile suport using the
+`opencv_cmake.sh` script, and finally make the static libraries for
+simulator and device.
 
-        % cd OpenCV-2.1.0
-        % patch -p1 < ../OpenCV-2.1.0.patch
-
-6.  Following next steps to build OpenCV static library for simulator.
-    All files are installed into ``opencv_simulator`` directory.
-    When running ``make`` command, you've better assign ``-j`` option and number according to number of your CPU cores.
-    Without ``-j`` option, it takes a long time.
-
-        % cd ..
-        % mkdir build_simulator
-        % cd build_simulator
-        % ../opencv_cmake.sh Simulator ../OpenCV-2.1.0
-        % make -j 4
-        % make install
-
-7.  Following next steps to build OpenCV static library for device
-    All files are installed into ``opencv_device`` directory.
-
-        % cd ..
-        % mkdir build_device
-        % cd build_device
-        % ../opencv_cmake.sh Device ../OpenCV-2.1.0
-        % make -j 4
-        % make install
 
 Build support script
 --------------------
 
-uild support script ``opencv_cmake.sh`` has some options to build OpenCV with iOS SDK.
-Try ``--help`` option to get the all options of it.
+Build support script ``opencv_cmake.sh`` has some options to build
+OpenCV with iOS SDK.  Try ``--help`` option to get the all options of
+it.
 
 Change Log
 ----------

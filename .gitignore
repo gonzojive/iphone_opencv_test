@@ -7,3 +7,12 @@
 /opencv_*/lib/*.la
 /opencv_*/lib/pkgconfig
 /opencv_*/share
+tmp
+*~
+*.tar.bz2
+\#*
+.\#*
+/build_device
+/build_simulator
+/opencv_device
+/opencv_simulator
