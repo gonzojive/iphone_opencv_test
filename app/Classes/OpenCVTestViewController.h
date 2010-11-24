@@ -1,6 +1,9 @@
 #import <UIKit/UIKit.h>
 #import <AudioToolbox/AudioToolbox.h>
 
+#import "OpenCVTestSURF.h"
+#import "ImageConversion.h"
+
 @interface UIProgressIndicator : UIActivityIndicatorView {
 }
 
@@ -55,6 +58,7 @@ typedef enum {
 - (IBAction)saveImage:(id)sender;
 - (IBAction)edgeDetect:(id)sender;
 - (IBAction)faceDetect:(id)sender;
+- (IBAction)surfDetect:(id)sender;
 
 @property (nonatomic, retain) UIImageView *imageView;
 @end

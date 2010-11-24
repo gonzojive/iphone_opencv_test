@@ -78,6 +78,28 @@
 	}
 }
 
+-(void) opencvSURFDetect
+{
+	if(imageView.image)
+	{
+		cvSetErrMode(CV_ErrModeParent);
+		
+		// Create grayscale IplImage from UIImage
+		IplImage *img_color = [self CreateIplImageFromUIImage:imageView.image];
+		detect_and_draw_surf(img_color);
+		
+		CGImageRef cg_img_color =  CGCreateImageFromIplImage(img_color);
+		
+		
+		imageView.image = [UIImage imageWithCGImage: cg_img_color];
+		
+		CGImageRelease(cg_img_color);
+		cvReleaseImage(&img_color);
+		
+		[self hideProgressIndicator];
+	}
+}
+
 - (void)opencvEdgeDetect {
 	if(imageView.image) {
 		cvSetErrMode(CV_ErrModeParent);
@@ -198,6 +220,13 @@
 - (IBAction)edgeDetect:(id)sender {
 	[self showProgressIndicator:@"Detecting"];
 	[self performSelectorInBackground:@selector(opencvEdgeDetect) withObject:nil];
+}
+
+
+- (IBAction)surfDetect:(id)sender
+{
+	[self showProgressIndicator:@"Detecting"];
+	[self performSelectorInBackground:@selector(opencvSURFDetect) withObject:nil];
 }
 
 - (IBAction)faceDetect:(id)sender {

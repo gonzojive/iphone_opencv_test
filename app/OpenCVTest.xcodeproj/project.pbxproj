@@ -24,6 +24,8 @@
 		9DF4AED0129C599F002567FF /* haarcascade_frontalface_default.xml in Resources */ = {isa = PBXBuildFile; fileRef = 9DF4AECF129C599F002567FF /* haarcascade_frontalface_default.xml */; };
 		9DF4AED3129C5A42002567FF /* libcv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DF4AED1129C5A42002567FF /* libcv.a */; };
 		9DF4AED4129C5A42002567FF /* libcxcore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DF4AED2129C5A42002567FF /* libcxcore.a */; };
+		9DF4AEFB129C5CF5002567FF /* OpenCVTestSURF.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DF4AEFA129C5CF5002567FF /* OpenCVTestSURF.cpp */; };
+		9DF4AF79129C6569002567FF /* ImageConversion.c in Sources */ = {isa = PBXBuildFile; fileRef = 9DF4AF77129C6569002567FF /* ImageConversion.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +51,10 @@
 		9DF4AECF129C599F002567FF /* haarcascade_frontalface_default.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = haarcascade_frontalface_default.xml; path = "../OpenCV-2.1.0/data/haarcascades/haarcascade_frontalface_default.xml"; sourceTree = SOURCE_ROOT; };
 		9DF4AED1129C5A42002567FF /* libcv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcv.a; path = ../opencv_device/lib/libcv.a; sourceTree = SOURCE_ROOT; };
 		9DF4AED2129C5A42002567FF /* libcxcore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcxcore.a; path = ../opencv_device/lib/libcxcore.a; sourceTree = SOURCE_ROOT; };
+		9DF4AEF9129C5CF5002567FF /* OpenCVTestSURF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenCVTestSURF.h; sourceTree = "<group>"; };
+		9DF4AEFA129C5CF5002567FF /* OpenCVTestSURF.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OpenCVTestSURF.cpp; sourceTree = "<group>"; };
+		9DF4AF77129C6569002567FF /* ImageConversion.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ImageConversion.c; sourceTree = "<group>"; };
+		9DF4AF78129C6569002567FF /* ImageConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageConversion.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +110,12 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
+				9DF4AF77129C6569002567FF /* ImageConversion.c */,
+				9DF4AF78129C6569002567FF /* ImageConversion.h */,
 				32CA4F630368D1EE00C91783 /* OpenCVTest_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
+				9DF4AEF9129C5CF5002567FF /* OpenCVTestSURF.h */,
+				9DF4AEFA129C5CF5002567FF /* OpenCVTestSURF.cpp */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
@@ -215,6 +225,8 @@
 				540723DE0E3DD25B00B598A2 /* main.m in Sources */,
 				540723DF0E3DD25B00B598A2 /* OpenCVTestAppDelegate.m in Sources */,
 				540723E00E3DD25B00B598A2 /* OpenCVTestViewController.m in Sources */,
+				9DF4AEFB129C5CF5002567FF /* OpenCVTestSURF.cpp in Sources */,
+				9DF4AF79129C6569002567FF /* ImageConversion.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
